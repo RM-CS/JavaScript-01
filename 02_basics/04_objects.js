@@ -44,10 +44,35 @@ const users = [
 
 users[1].email
 
-console.log(uberUser);
+// console.log(uberUser);
 
-console.log(Object.keys(uberUser));
-console.log(Object.values(uberUser));
-console.log(Object.entries(uberUser));
+// console.log(Object.keys(uberUser));
+// console.log(Object.values(uberUser));
+// console.log(Object.entries(uberUser));
 
-console.log(uberUser.hasOwnProperty('isLogged'));
+// console.log(uberUser.hasOwnProperty('isLogged'));
+
+const course = {
+    courseName: "JavaScript",
+    price: "1999",
+    courseInstructor: "RM-CS"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "courseName": "JavaScript",
+//     "price": "1999",
+//     "courseInstructor": "RM-CS"
+// }
+
+[
+    {},
+    {},
+    {}
+]
