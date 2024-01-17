@@ -5,7 +5,7 @@
 ## project 1
 
 ```javascript
-console.log("hitesh")
+console.log("RM CS")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
